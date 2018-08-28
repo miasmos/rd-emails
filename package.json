@@ -1,0 +1,34 @@
+{
+  "name": "rd-emails",
+  "version": "1.0.0",
+  "description": "rd-emails",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-replace": "^1.0.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^4.0.0",
+    "gulp-zip": "^4.2.0",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenpoole/rd-emails.git"
+  },
+  "author": "Stephen Poole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenpoole/rd-emails/issues"
+  },
+  "homepage": "https://github.com/stephenpoole/rd-emails#readme"
+}
