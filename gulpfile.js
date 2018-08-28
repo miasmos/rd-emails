@@ -148,7 +148,7 @@ gulp.task('package', function() {
     streams.push(
         gulp
             .src([dev + '/**/*', '!' + dev + '/**/*.zip'])
-            .pipe(zip(brand + '-' + name + '-v' + version + '.zip'))
+            .pipe(zip(brand + '-' + name + '-v' + version + '-dev.zip'))
             .pipe(gulp.dest(dev))
     );
 });
