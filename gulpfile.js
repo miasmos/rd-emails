@@ -54,7 +54,7 @@ gulp.task('html', function() {
     // prod
     streams.push(
         gulp
-            .src(src + '/index.html')
+            .src(src + '/*.html')
             .pipe(
                 replace(
                     /src="(\/.*?)"/g,
@@ -67,7 +67,7 @@ gulp.task('html', function() {
     // dev
     streams.push(
         gulp
-            .src(src + '/index.html')
+            .src(src + '/*.html')
             .pipe(
                 replace(/src="(\/.*)"/g, function(match, p1) {
                     var s = p1.split('/');
@@ -86,7 +86,7 @@ gulp.task('img-paths', function() {
     imgPaths = [];
     var streams = [];
     streams.push(
-        gulp.src(src + '/index.html').pipe(
+        gulp.src(src + '/*.html').pipe(
             replace(/src="(\/.*?)"/g, function(match, p1) {
                 var p = path.resolve(img, './' + p1);
 
