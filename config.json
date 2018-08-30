@@ -2,7 +2,7 @@
     "url": "http://emails.richmondday.com",
     "version": {
         "HomeEquity": {
-            "SubsequentAdvance": "1.0",
+            "SubsequentAdvance": "1.1",
             "Unsubscribe": "1.0"
         },
         "RapidRTC": {
